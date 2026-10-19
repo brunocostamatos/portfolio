@@ -242,13 +242,14 @@ body::selection {
 }
 
 .section-tag {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   color: var(--accent-neon);
   text-transform: uppercase;
   display: block;
   margin-bottom: 12px;
+  font-family: var(--font-family-2);
 }
 
 .section-tag.dark-tag {
@@ -1009,13 +1010,14 @@ p a.link-projects {
 }
 
 .cta-mini-tag {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent-dark-green);
   display: block;
   margin-bottom: 12px;
+  font-family: var(--font-family-2);
 }
 
 .cta-text-content h2 {
