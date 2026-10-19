@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio de Bruno Costa de Matos, Desenvolvedor Front-End e Mobile. Especialista em aplicações web e mobile interativas, interfaces responsivas e padrões de acessibilidade.">
+  <title>Bruno Costa de Matos - Desenvolvedor Frontend</title>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preload" href="assets/fonts/inter-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-v20-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-dot"></span> Bruno Costa de Matos
+      </a>
+      <nav class="nav-links" role="navigation" aria-label="Menu Desktop">
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#trajetoria">Trajetória</a>
+        <a href="#projetos">Projetos & Publicações</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+      <div class="header-cta">
+        <a href="#contatos" class="btn-outline">
+          Fale comigo
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <use href="/assets/icons/lucide-arrow-up-right.svg"></use>
+          </svg>
+        </a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Menu Mobile">
+    <a href="#tecnologias">Tecnologias</a>
+    <a href="#trajetoria">Trajetória</a>
+    <a href="#projetos">Projetos & Publicações</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contatos">Fale comigo</a>
+  </div>
+
+  <main role="main">
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge-available">
+          <span class="pulse-dot"></span> Disponível para trabalho &bull; Web e Mobile
+        </span>
+        <h1 class="hero-title">
+          Conectando tecnologia, dados e negócios em <span class="highlight">produtos digitais</span>.
+          <!--
+          Interfaces that move <span class="highlight">business</span> forward. -->
+        </h1>
+        <p class="hero-subtitle">
+          Construindo ecossistemas Web e Mobile, combinando experiência em software corporativo, dados e P&D.
+          <!-- Prototyping clear trading interfaces & products from system architecture to the last line of production code. -->
+        </p>
+        <div class="hero-actions">
+          <a href="#trajetoria" class="btn-primary">Veja minhas experiências <svg width="18" height="18"
+              viewBox="0 0 24 24" fill="currentColor">
+              <use href="/assets/icons/lucide-arrow-up-right.svg"></use>
+            </svg>
+
+          </a>
+        </div>
+      </div>
+      <div class="hero-card-wrapper">
+        <div class="developer-card">
+          <div class="card-img-container">
+
+            <!-- <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600"
+              alt="Bruno Costa de Matos" /> -->
+          </div>
+          <div class="card-info">
+            <span class="card-name">Bruno Costa de Matos</span>
+            <span class="card-role">Desenvolvedor Frontend e Mobile</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER STRIP -->
+  <div class="ticker-strip">
+    <div class="ticker-track">
+      &bull;
+      <span>ROLE PARA EXPLORAR</span>
+      &bull;
+    </div>
+  </div>
+
+  <!-- SECAO TECNOLOGIAS -->
+
+  <section class="toolchain-section" id="tecnologias">
+    <div class="container toolchain-grid">
+      <div class="toolchain-intro">
+        <span class="section-tag dark-tag">/ 01 TECNOLOGIAS</span>
+        <h2>Tecnologias de domínio</h2>
+        <p>Linguagens e frameworks são meios para um fim: entregar interfaces de alta performance e código escalável.
+        </p>
+        <div class="floating-box">
+          <p>“Simplicidade é pré-requisito para confiabilidade.”</p>
+          <span>— Edsger W. Dijkstra (Cientista da computação)</span>
+        </div>
+      </div>
+
+      <div class="toolchain-table-wrapper">
+        <div class="stack-list">
+
+          <div class="stack-row">
+            <span class="stack-category">Linguagens</span>
+            <span class="stack-dot"></span>
+            <div class="stack-pills">
+              <span class="pill">JavaScript</span>
+              <span class="pill">PHP</span>
+              <span class="pill">Python</span>
+              <span class="pill">SQL</span>
+            </div>
+          </div>
+
+          <div class="stack-row">
+            <span class="stack-category">Interface & Web</span>
+            <span class="stack-dot"></span>
+            <div class="stack-pills">
+              <span class="pill">Flutter</span>
+              <span class="pill">ReactJS</span>
+              <span class="pill">HTML5</span>
+              <span class="pill">CSS</span>
+              <span class="pill">Bootstrap</span>
+              <span class="pill">jQuery</span>
+            </div>
+          </div>
+
+          <div class="stack-row">
+            <span class="stack-category">Dados & Ferramentas</span>
+            <span class="stack-dot"></span>
+            <div class="stack-pills">
+              <span class="pill">PostgreSQL</span>
+              <span class="pill">Git</span>
+              <span class="pill">Figma</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECAO TRABALHOS -->
+  <section class="experience-section" id="trajetoria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">/ 02 TRAJETÓRIA</span>
+        <h2 class="section-heading">4 anos desenvolvendo sistemas de <span class="highlight">alta relevância</span> nos
+          <span class="highlight">setores público</span> e <span class="highlight">privado</span>.
+        </h2>
+        <div class="secao-curriculo-download">
+          <a href="/BrunoCostaMatosCurriculum.pdf" target="_blank" rel="noopener noreferrer">
+            Baixar Currículo (PDF)
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <use href="/assets/icons/lucide-file-down.svg"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <details class="timeline-item" open>
+        <summary class="timeline-summary">
+          <span class="timeline-year">12/2023 – 07/2026</span>
+
+          <div class="timeline-details">
+            <h3>Marinha do Brasil</h3>
+            <p class="timeline-role">Desenvolvedor de Software Pleno</p>
+          </div>
+
+          <div class="timeline-right">
+            <span class="timeline-loc">Rio de Janeiro / Híbrido</span>
+            <svg class="timeline-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <use href="/assets/icons/lucide-chevron-down.svg"></use>
+            </svg>
+          </div>
+        </summary>
+
+        <div class="timeline-expandable-content">
+          <p>Desenvolvi nova identidade visual para o sistema de acompanhamento marítimo e seus módulos adjacentes
+            usando JavaScript, PHP, SQL, jQuery, Bootstrap e CSS. Atualizei a forma que os dados eram apresentados, com
+            foco na agilidade e fluidez, apresentando os dados recentes, históricos e as classificações de mais de
+            10.000 navios únicos atualizados a cada hora através de 10 fontes distintas, nacionais e internacionais.</p>
+        </div>
+        <div class="timeline-expandable-content">
+          <p>Também atuei em equipe no desenvolvimento e na integração de LLMs, Ollama, com a base de dados do sistema,
+            visando automatizar classificações de riscos e detecção de anomalias. Trabalhei desenvolvendo novas soluções
+            para extrair informações estratégicas dos dados, visando apoiar o operador do sistema na tomada de
+            decisões.</p>
+        </div>
+      </details>
+
+      <details class="timeline-item">
+        <summary class="timeline-summary">
+          <span class="timeline-year">12/2024 – 11/2025</span>
+
+          <div class="timeline-details">
+            <h3>Associação Educacional Universidade Atitude</h3>
+            <p class="timeline-role">Desenvolvedor de Software Pleno</p>
+          </div>
+
+          <div class="timeline-right">
+            <span class="timeline-loc">Rio de Janeiro / Híbrido</span>
+            <svg class="timeline-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <use href="/assets/icons/lucide-chevron-down.svg"></use>
+            </svg>
+          </div>
+        </summary>
+
+        <div class="timeline-expandable-content">
+          <p>Desenvolvi um aplicativo mobile em Flutter e PHP, integrado ao sistema de CMS interno. O aplicativo teve
+            sua
+            interface planejada para se parecer com serviços de streaming e foi desenvolvido de forma otimizada para
+            funcionar em dispositivos móveis mais e menos potentes.</p>
+        </div>
+        <div class="timeline-expandable-content">
+          <p>Paralelamente, também desenvolvi landing pages com foco em conversão institucional, utilizando HTML, CSS,
+            JavaScript e PHP, com integração via APIs ao CMS interno. A fluidez e o comportamento controlado em
+            diferentes dispositivos eram um dos requisitos que foram entregues.</p>
+        </div>
+      </details>
+
+      <details class="timeline-item">
+        <summary class="timeline-summary">
+          <span class="timeline-year">01/2022 – 12/2023</span>
+
+          <div class="timeline-details">
+            <h3>CAM Tecnologia</h3>
+            <p class="timeline-role">Desenvolvedor de Software Pleno</p>
+          </div>
+
+          <div class="timeline-right">
+            <span class="timeline-loc">Rio de Janeiro / Híbrido</span>
+            <svg class="timeline-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <use href="/assets/icons/lucide-chevron-down.svg"></use>
+            </svg>
+          </div>
+        </summary>
+
+        <div class="timeline-expandable-content">
+          <p>Desenvolvi e otimizei interfaces responsivas para um ERP comercial com React, JavaScript, Bootstrap e CSS.
+            Implementei integrações com o backend via APIs REST. Ao longo de dois anos, evoluí de desenvolvedor júnior
+            para pleno, com ampliação da autonomia técnica e responsabilidades nas escolhas do desenvolvimento.</p>
+        </div>
+      </details>
+
+      <details class="timeline-item">
+        <summary class="timeline-summary">
+          <span class="timeline-year">03/2018 – 07/2023</span>
+
+          <div class="timeline-details">
+            <h3>Laboratório de Redes e Multimídia - UFRJ</h3>
+            <p class="timeline-role">Iniciação Científica</p>
+          </div>
+
+          <div class="timeline-right">
+            <span class="timeline-loc">Rio de Janeiro / Presencial</span>
+            <svg class="timeline-arrow" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <use href="/assets/icons/lucide-chevron-down.svg"></use>
+            </svg>
+          </div>
+        </summary>
+
+        <div class="timeline-expandable-content">
+          <p>Atuei com pesquisa e desenvolvimento em projetos junto de entes privados e públicos, como a Prefeitura da
+            Cidade do Rio de Janeiro, Fundação Oswaldo Cruz, Rádio UFRJ, entre outros. Obtive experiência como
+            desenvolvedor de software frontend e de soluções com Internet das Coisas (IoT), utilizando JavaScript,
+            React, Ionic, Bootstrap, CSS, HTML, entre outras tecnologias.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- SECAO PROJETOS & PUBLICACOES -->
+  <section class="services-section" id="projetos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag dark-tag">/ 03 PROJETOS & PUBLICAÇÕES</span>
+        <!-- <h2 class="section-heading">A pesquisa é o primeiro passo para entregar um produto.</h2> -->
+        <blockquote class="quote-container">
+          <h2 class="section-heading">“Se soubéssemos o que estamos fazendo, não seria pesquisa.”</h2>
+          <cite class="quote-author">&mdash; Albert Einstein</cite>
+        </blockquote>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-card-top" title="Premiação">
+            <a class="link-projects"
+              href="https://www.abdi.com.br/equipe-da-ufrj-conquista-o-primeiro-lugar-no-vacathon-2020/" target="_blank"
+              rel="noopener noreferrer" title="Notícia Vacathon">
+              <h3>Hackathon "Vacathon"</h3>
+              <p>Embrapa Gado de Leite - 08/2026</p>
+            </a>
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path
+                  d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V18H8v2h8v-2h-3v-2.1c2.12-.39 3.75-2.01 4.61-4.06C19.08 11.53 21 9.45 21 7V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
+              </svg>
+            </span>
+          </div>
+          <p>Representando a UFRJ junto da equipe Mimosa, realizei pesquisa e desenvolvimento do protótipo da uaiCup. A
+            solução de IoT consiste em uma caneca que realiza a análise da qualidade do leite e rastreio de
+            antibióticos, conferindo essas e outras vantagens para o pequeno e médio produtor.</p>
+          <p>A uaiCup foi premiada com o 1º lugar no "Vacathon" e o
+            <a class="link-projects"
+              href="https://www.sindilat.com.br/site/2020/12/17/milk-farm-uaicup-e-projetoq-sao-as-vencedoras-do-ideas-for-milk-2020/"
+              target="_blank" rel="noopener noreferrer" title="Notícia Ideas for Milk 2020">
+              2º lugar na competição de startups "Ideas for Milk 2020"
+            </a>
+            .
+          </p>
+          <ul>
+            <li>Internet das Coisas (IoT)</li>
+            <li>P&D</li>
+            <li>Startup</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-card-top" title="Projeto">
+            <div>
+              <h3>Rádio Universitária</h3>
+              <p>UFRJ - 08/2026</p>
+            </div>
+            <!-- <h3>Rádio Universitária</h3> -->
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z" />
+              </svg>
+            </span>
+          </div>
+          <p>Desenvolvimento, aprimoramento e manutenção do website da Rádio UFRJ, bem como no desenvolvimento de
+            soluções de tecnologia da informação no âmbito do projeto.
+          </p>
+          <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Rádio Digital</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-card-top" title="Projeto">
+            <div>
+              <h3>GT Coronavírus</h3>
+              <p>UFRJ - 08/2026</p>
+            </div>
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z" />
+              </svg>
+            </span>
+          </div>
+          <p>Dentro desse grupo de trabalho, participei do desenvolvimento de um sistema web que possui duas
+            funcionalidades. A primeira é usar de formulários para controle dos pacientes e seus sintomas, realizando de
+            forma integrada o preenchimento dos formulários para melhor experiência do usuário. A segunda
+            funcionalidade é realizar mapeamento dos casos de covid-19, que foram gerados pelos formulários preenchidos,
+            baseado na
+            situação de saúde do paciente.</p>
+          <ul>
+            <li>Ciência de Dados</li>
+            <li>Georreferenciamento</li>
+            <li>P&D</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-card-top" title="Projeto e Artigo">
+            <a class="link-projects" href="https://periodicos.ufc.br/resdite/article/view/71308/217964" target="_blank"
+              rel="noopener noreferrer" title="Artigo Projeto Dandarah-IoT">
+              <h3>Dandarah-IoT</h3>
+              <p>Fiocruz e UFRJ - 08/2026</p>
+            </a>
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </span>
+          </div>
+          <p>Com o objetivo de desenvolver um sistema que obtenha dados de violência contra a
+            população LGBTQIA+, com foco na população transexual, foi utilizando do conceito de Internet das Coisas que
+            desenvolvi um protótipo de pulseira inteligente.</p>
+          <p>A pulseira possui um botão de pânico integrado e sensores que permitem a comunicação dos dados para o
+            armazenamento, permitindo que os mesmos sejam tratados e disponibilizados de forma que possam ser consumidos
+            por aplicações com diferentes fins, como, por exemplo, um mapeamento dos casos de violência contra a
+            população transexual.
+          </p>
+          <ul>
+            <li>Internet das Coisas (IoT)</li>
+            <li>Georreferenciamento</li>
+            <li>P&D</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-card-top" title="Projeto e Artigo">
+            <a class="link-projects" href="https://sol.sbc.org.br/index.php/ersi-rj/article/view/10121/9997"
+              target="_blank" rel="noopener noreferrer" title="Artigo Projeto MobiSaúde">
+              <h3>MobiSaúde</h3>
+              <p>Secretaria Municipal de Saúde RJ e UFRJ - 08/2026</p>
+            </a>
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+              </svg>
+            </span>
+          </div>
+          <p>Com o objetivo de facilitar a obtenção dos dados e cooperar com o trabalho dos Agentes de Saúde, participei
+            da equipe de desenvolvimento de uma aplicação mobile, o MobiSaúde. A aplicação possui uma integração com um
+            servidor web, que tem como objetivo auxiliar as tomadas de decisões através da melhoria no acesso aos dados
+            dos pacientes e das Unidades de Saúde da cidade do Rio de Janeiro.
+          </p>
+          <ul>
+            <li>Desenvolvimento Mobile</li>
+            <li>mHealth</li>
+            <li>P&D</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-card-top" title="Premiação">
+            <a class="link-projects" href="jictac.pdf" target="_blank" rel="noopener noreferrer"
+              title="Comprovante JICTAC">
+              <h3>JICTAC</h3>
+              <p>UFRJ - 08/2026</p>
+            </a>
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path
+                  d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V18H8v2h8v-2h-3v-2.1c2.12-.39 3.75-2.01 4.61-4.06C19.08 11.53 21 9.45 21 7V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
+              </svg></span>
+          </div>
+          <p>Melhor Trabalho na XLII Jornada Giulio Massarani de Iniciação Científica, Tecnológica, Artística e Cultural
+            do Centro de Ciências Matemáticas e da Natureza com o trabalho ”DESENVOLVIMENTO DE FORMULÁRIOS VIRTUAIS PARA
+            MAPEAMENTO DE POSSÍVEIS CASOS DE CORONAVÍRUS (COVID-19) NA CIDADE DO RIO DE JANEIRO”.</p>
+          <p>O trabalho apresenta o sistema de anamnese e mapeamento dos casos de covid-19 desenvolvidos durante a
+            participação no GT Coronavírus da UFRJ.</p>
+          <ul>
+            <li>Ciência de Dados</li>
+            <li>Georreferenciamento</li>
+            <li>P&D</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-card-top" title="Premiação">
+            <a class="link-projects" href="siac.pdf" target="_blank" rel="noopener noreferrer" title="Comprovante SIAc">
+              <h3>SIAc</h3>
+              <p>UFRJ - 08/2026</p>
+            </a>
+            <span class="service-icon">
+              <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                fill="currentColor">
+                <path
+                  d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V18H8v2h8v-2h-3v-2.1c2.12-.39 3.75-2.01 4.61-4.06C19.08 11.53 21 9.45 21 7V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z" />
+              </svg></span>
+          </div>
+          <p>Menção Honrosa na Semana de Integração Acadêmica da UFRJ com o trabalho ”CONSTRUINDO APLICAÇÕES DE IOT:
+            DESDE O NÓ ATÉ A APLICAÇÃO DO USUÁRIO FINAL”.</p>
+          <p>O trabalho apresentado aborda projetos de Internet das Coisas que foram desenvolvidos através de uma
+            plataforma no-code e as possibilidades existentes para futuros projetos.</p>
+          <ul>
+            <li>Internet das Coisas (IoT)</li>
+            <li>Node-RED</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECAO DEPOIMENTOS -->
+  <section class="testimonial-section" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">/ 04 DEPOIMENTOS</span>
+        <h2 class="section-heading">Reconhecimento de Gestores & Tech Leads.</h2>
+      </div>
+
+      <!-- Wrapper Principal do Carrossel -->
+      <div class="carousel-wrapper">
+        <div class="carousel-track" id="testimonialTrack">
+
+          <div class="testimonial-slide active">
+            <div class="testimonial-author-row">
+              <div>
+                <strong>Diego London</strong>
+                <p>Arquiteto de Software - CASNAV</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-quote">
+              “Bruno <span class="hi-text">possui todos os requisitos de um excelente profissional</span>, interesse
+              pelo negócio, conhecimento técnico e capacidade de trabalhar em equipe.“
+            </blockquote>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-author-row">
+              <div>
+                <strong>Sergio Guedes</strong>
+                <p>Diretor de tecnologia - Universidade Atitude</p>
+              </div>
+            </div>
+            <blockquote class="testimonial-quote">
+              “Bruno é um <span class="hi-text">profissional eficiente</span>,
+              <span class="hi-text">dedicado</span> e
+              <span class="hi-text">comprometido</span>, que demonstra atenção aos requisitos do produto e busca
+              compreender os desafios técnicos e funcionais antes de começar a desenvolver.
+              <span class="hi-text">Entrega experiências fluidas e intuitivas</span> tanto no <span
+                class="hi-text">ambiente web</span>, landing pages e sistemas internos, quanto em
+              <span class="hi-text">aplicativos mobile</span>.“
+            </blockquote>
+          </div>
+
+          <!-- <div class="testimonial-slide">
+            <div class="testimonial-author-row">
+              <div>
+                <h4></h4>
+                <p></p>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+
+        <!-- Controles de Navegação do Carrossel -->
+        <div class="carousel-controls">
+          <div class="carousel-dots" id="carouselDots">
+            <button class="dot active" data-index="0" aria-label="Ir para slide 1"></button>
+            <button class="dot" data-index="1" aria-label="Ir para slide 2"></button>
+            <!-- <button class="dot" data-index="2" aria-label="Ir para slide 3"></button> -->
+          </div>
+          <div class="carousel-buttons">
+            <button class="btn-carousel-nav" id="prevBtn" aria-label="Depoimento anterior">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <use href="/assets/icons/lucide-arrow-left.svg"></use>
+              </svg>
+
+            </button>
+            <button class="btn-carousel-nav" id="nextBtn" aria-label="Próximo depoimento">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <use href="/assets/icons/lucide-arrow-right.svg"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECAO CTA -->
+  <section class="cta-section" id="contatos">
+    <div class="container cta-container">
+      <div class="cta-text-content">
+        <span class="cta-mini-tag">/ 05 Fale comigo</span>
+        <h2>Em busca de um desenvolvedor? <div>Encontrou.</div> <div>Vamos conversar.</div></h2>
+      </div>
+      <div class="container-contact">
+        <p>Email</p>
+        <div class="contact-box">
+          <span class="contact-text" id="emailText">brunocostamatos@gmail.com</span>
+          <button type="button" class="button-contact" id="copyEmailBtn" data-email="brunocostamatos@gmail.com"
+            title="Copiar e-mail">
+            <span class="social-media-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <span class="contact-text" id="avisoEmailCopiado">Copiado para área de transferência!</span>
+        <p>LinkedIn</p>
+        <div class="contact-box">
+          <span class="contact-text">bruno-costa-de-matos</span>
+          <a class="button-contact" href="https://www.linkedin.com/in/bruno-costa-de-matos" target="_blank"
+            rel="noopener noreferrer" title="Perfil no LinkedIn">
+            <span class="social-media-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <use href="/assets/icons/lucide-arrow-up-right.svg"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+        <p>GitHub</p>
+        <div class="contact-box">
+          <span class="contact-text">@brunocostamatos</span>
+          <a class="button-contact" href="https://github.com/brunocostamatos" target="_blank" rel="noopener noreferrer"
+            title="Perfil no GitHub">
+            <span class="social-media-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <use href="/assets/icons/lucide-arrow-up-right.svg"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+        <p>Currículo</p>
+        <div class="contact-box">
+          <span class="contact-text">Baixar PDF</span>
+          <a class="button-contact" href="/BrunoCostaMatosCurriculum.pdf" target="_blank" rel="noopener noreferrer"
+            title="Baixar Currículo">
+            <span class="social-media-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <use href="/assets/icons/lucide-file-down.svg"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <!-- 
+      <a class="contact-box" href="https://github.com/brunocostamatos" target="_blank" rel="noopener noreferrer">
+        <span class="contact-title">GitHub</span>
+        <span class="contact-text" id="emailText">@brunocostamatos</span>
+        <button type="button" class="social-media-btn" title="Ir para o github">
+          <span>&#x2197;</span>
+        </button>
+      </a>
+      <a class="contact-box" href="/BrunoCostaMatosCurriculum.pdf" target="_blank" rel="noopener noreferrer">
+        <span class="contact-title">CURRÍCULO</span>
+        <span class="contact-text" id="emailText">Baixar PDF</span>
+        <button type="button" class="social-media-btn" title="Baixar curriculo">
+          <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            width="24" height="24" fill="currentColor">
+            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+          </svg>
+        </button>
+      </a> -->
+    </div>
+  </section>
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-bottom">
+      <div>
+        <a href="#" class="logo footer-logo"><span class="logo-dot"></span> Bruno Costa de Matos</a>
+        <p class="footer-desc">Conectando tecnologia, dados e negócios em produtos digitais.</p>
+      </div>
+      <div class="footer-row-links">
+        <a href="https://www.linkedin.com/in/bruno-costa-de-matos/" target="_blank"
+          rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/brunocostamatos" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="/BrunoCostaMatosCurriculum.pdf" target="_blank" rel="noopener noreferrer">Currículo</a>
+      </div>
+      <div>
+        <p>&copy; 2026 Bruno Costa de Matos. Todos direitos reservados.</p>
+      </div>
+      <div>
+        <button class="btn-scroll-top" id="scrollTopBtn" aria-label="Ir para o topo da página">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+
+</html>
