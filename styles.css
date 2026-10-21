@@ -345,6 +345,7 @@ body::selection {
 
 .highlight {
   color: var(--accent-neon);
+  font-family: var(--font-family-2);
 }
 
 .hero-subtitle {
@@ -420,13 +421,9 @@ body::selection {
 
 img {
   -webkit-user-select: none;
-  /* Safari / Chrome antigos */
   -moz-user-select: none;
-  /* Firefox */
   -ms-user-select: none;
-  /* Internet Explorer / Edge antigo */
   user-select: none;
-  /* Padrão moderno */
 }
 
 .card-info {
@@ -682,12 +679,12 @@ p a.link-projects {
   border-bottom: none;
 }
 
-.stack-row:hover {
+.stack-row:hover{
   background-color: var(--border-light);
+}
 
-  .pill {
-    background-color: var(--bg-light-card);
-  }
+.stack-row:hover .pill{
+  background-color: var(--bg-light-card);
 }
 
 /* Nome da Categoria (Ex: CORE, INTERFACE) */
@@ -1369,9 +1366,6 @@ p a.link-projects {
   margin-bottom: 40px;
 }
 
-.testimonial-quote .hi-text {
-  color: var(--accent-neon, #C8FF3D);
-}
 
 /* Controles (Indicadores & Botões) */
 .carousel-controls {
