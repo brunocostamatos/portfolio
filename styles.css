@@ -144,17 +144,6 @@ body::selection {
   gap: 8px;
 }
 
-.logo-dot {
-  width: 8px;
-  height: 8px;
-  background-color: var(--accent-neon);
-  border-radius: 50%;
-  display: inline-block;
-
-  box-shadow: 0 0 8px var(--accent-neon);
-  animation: pulse 2s infinite;
-}
-
 .nav-links {
   display: flex;
   gap: 32px;
@@ -303,19 +292,24 @@ body::selection {
   animation: pulse 2s infinite;
 }
 
+.logo-bcm {
+  width: 3vw;
+  margin-top: 3px;
+}
+
 @keyframes pulse {
   0% {
-    transform: scale(0.95);
+    /* transform: scale(0.85); */
     opacity: 0.8;
   }
 
   50% {
-    transform: scale(1.2);
-    opacity: 1;
+    /* transform: scale(1); */
+    opacity: 1.2;
   }
 
   100% {
-    transform: scale(0.95);
+    /* transform: scale(0.85); */
     opacity: 0.8;
   }
 }
@@ -679,11 +673,11 @@ p a.link-projects {
   border-bottom: none;
 }
 
-.stack-row:hover{
+.stack-row:hover {
   background-color: var(--border-light);
 }
 
-.stack-row:hover .pill{
+.stack-row:hover .pill {
   background-color: var(--bg-light-card);
 }
 
@@ -1205,6 +1199,19 @@ p a.link-projects {
 /* ==========================================================================
    RESPONSIVIDADE (MOBILE & TABLET)
    ================================================================---------- */
+
+@media (max-width: 1440px) {
+  .logo-bcm {
+    width: 4vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo-bcm {
+    width: 6vw;
+  }
+}
+
 @media (max-width: 968px) {
   .btn-primary {
     gap: 5px;
@@ -1272,6 +1279,10 @@ p a.link-projects {
     gap: 40px;
     align-items: flex-start;
   }
+
+  .logo-bcm {
+    width: 8vw;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1294,6 +1305,10 @@ p a.link-projects {
 
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+
+  .logo-bcm {
+    width: 15vw;
   }
 }
 
@@ -1434,8 +1449,8 @@ svg.linkedin-icon:hover {
 @media (min-width: 968px) {
   .testimonial-slide {
     min-width: 100%;
-  box-sizing: border-box;
-  opacity: 0.3;
-  transition: opacity 0.5s ease;
+    box-sizing: border-box;
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
   }
 }
